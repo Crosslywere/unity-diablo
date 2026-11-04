@@ -12,6 +12,11 @@ namespace Xly
 
         [Header("World Index")]
         [SerializeField]
+        private int menuSceneIndex = 0;
+
+        public int MenuSceneIndex => menuSceneIndex;
+
+        [SerializeField]
         private int worldSceneIndex = 1;
 
         private void Awake()

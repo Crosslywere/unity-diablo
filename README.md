@@ -22,3 +22,7 @@ The playlist can be found [here](https://www.youtube.com/watch?v=Jnrs1FCJ6_s&lis
   ```
 - Added a call to disable the `PRESS START` button.
 - Clamped the alpha to `0` or `1` after fading.
+
+## Episode 2
+
+- Using nav mesh to transform the game object as per the **_assignement_**. Made `NavMeshAgent` a primary component of the `Player` prefab so its transform directly applies to it.
